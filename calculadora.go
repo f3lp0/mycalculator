@@ -16,7 +16,7 @@ type Calc struct {
 
 // Receiver function, estamos creando un método a calc
 // aplicación: calc.operate(s1,s2)
-func (Calc) Pperate(entrada string, operador string) int {
+func (Calc) Operate(entrada string, operador string) int {
 	// Si operador 1 u operador2 no son numéricos,
 	// GO toma solo los numéricos
 	entradaLimpia := strings.Split(entrada, operador)
