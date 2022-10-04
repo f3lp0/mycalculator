@@ -50,7 +50,7 @@ func parsear(entrada string) int {
 	return operador
 }
 
-func leerEntrada() string {
+func LeerEntrada() string {
 	// Creando el input desde el teclado
 	scanner := bufio.NewScanner(os.Stdin)
 	scanner.Scan()
