@@ -58,8 +58,8 @@ func LeerEntrada() string {
 }
 
 func main() {
-	entrada := leerEntrada()
-	operador := leerEntrada()
+	entrada := LeerEntrada()
+	operador := LeerEntrada()
 
 	// mostrando los datos de entrada
 	// fmt.Println(entrada)
